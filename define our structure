@@ -1,0 +1,17 @@
+typedef struct player{
+    int id;
+    int location_x;
+    int location_y;
+    int direction;
+    int money;
+    int dice;
+    int position;
+    int tool_free;
+    int tool_stay;
+    int tool_transfer;
+    int picture_number;
+    int jail_period;
+    char life;    //'T' or 'F'
+    ALLEGRO_BITMAP* picture;
+    ALLEGRO_BITMAP* picture_head;
+}PLAYER;
